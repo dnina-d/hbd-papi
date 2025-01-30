@@ -94,7 +94,7 @@
         One day soon, no more excuse.<br>
         I’ll be right there, no screen in sight,<br>
         To love you real, to hold you tight.</p>
-        <div class="heart">❤️</div>
+        <div class="heart">💙</div>
         <button class="button" onclick="revealMessage()">Click for a Surprise</button>
         <p id="hiddenMessage">You are my everything! I love you endlessly. 💖✨</p>
     </div>
