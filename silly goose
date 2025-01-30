@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #cce7ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #0056b3;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .heart {
+            font-size: 3em;
+            color: #0056b3;
+            animation: heartbeat 1.5s infinite;
+        }
+        .button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .button:hover {
+            background-color: #003d80;
+        }
+        #hiddenMessage {
+            display: none;
+            font-size: 1.5em;
+            color: #0056b3;
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Goose_cartoon.svg/800px-Goose_cartoon.svg.png" alt="Cartoon Goose">
+        <h1>Happy Birthday, My Love! 🎉</h1>
+        <p>My silly goose, you are the light of my life. 💕<br>
+        From miles away, yet close to me,</p>
+        <p>You own my heart, can’t you see?<br>
+        My silly goose, my sweetest delight,<br>
+        I love you more than words can write.</p>
+        <p>We’ve laughed, we’ve talked, we’ve shared our dreams,<br>
+        Through miles apart and glowing screens.<br>
+        Though I’ve never held your hand so tight,<br>
+        You’re in my heart, you feel so right.</p>
+        <p>I picture us on days to come,<br>
+        No WiFi lag, no calls undone.<br>
+        Just you and me, no space between,<br>
+        Like something straight from movie scenes.</p>
+        <p>But until then, my love, my light,<br>
+        I send my words to hold you tight.<br>
+        So close your eyes and make a wish,<br>
+        A birthday hug, a stolen kiss.</p>
+        <p>Happy birthday, my silly goose,<br>
+        One day soon, no more excuse.<br>
+        I’ll be right there, no screen in sight,<br>
+        To love you real, to hold you tight.</p>
+        <div class="heart">❤️</div>
+        <button class="button" onclick="revealMessage()">Click for a Surprise</button>
+        <p id="hiddenMessage">You are my everything! I love you endlessly. 💖✨</p>
+    </div>
+
+    <script>
+        function revealMessage() {
+            document.getElementById("hiddenMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
